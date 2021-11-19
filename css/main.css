@@ -1,0 +1,332 @@
+/*-------------------------------------------------------------------BODY HTML--------------------------------------------------------------------*/
+html{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgrey;
+    
+}
+body{
+
+ 
+  
+   background-image:url("../img/brazos.png") ;
+   background-repeat: no-repeat;
+   background-position:center bottom ;
+   background-color:#FCF5ED ;   
+   max-width: 1200px;
+  
+   
+ 
+}
+/*--------------------------------------------------------------------CABECERA--------------------------------------------------------------------------------*/
+
+/*etiquetas*/
+button{
+
+    width: 6rem;
+    height: 2rem;
+    font-family: "anton";
+    letter-spacing: 0.05rem;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 0.7rem;
+    
+}
+
+/*clases*/
+.cabecera a{
+
+    text-decoration: none;
+    font-family: "anton";
+    color:#599AAD;
+    font-size: 1.5rem;
+    padding-left:2rem;
+  
+}
+.cabecera{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.cab2{
+
+    display:flex;
+    align-items: center;
+    gap:35rem;
+    
+}
+
+/*identificadores*/
+#manoCabecera{
+
+    padding-left: 6rem;
+    height: 12rem;
+    padding-top: 1rem;
+    margin-bottom: -5rem;
+}
+
+
+#rule1{
+    
+    height: 5.8rem;
+    padding-left:20rem;
+
+}
+
+#login{
+
+    background-color: #FCF5ED ;
+    border:#599AAD solid thin;
+    color:#599AAD;
+    padding-right: 1rem;
+    margin-top: 1rem;
+
+}
+
+#register{
+
+    background-color: #599AAD;
+    border:none;
+    color:#FCF5ED;
+
+}
+
+#register:hover{
+
+    border:none;
+    background-color: #F31102 ;
+    color:#FCF5ED ;
+
+}
+
+#login:hover{
+
+    border:none;
+    background-color: #F31102 ;
+    color:#FCF5ED ;
+
+}
+
+
+/*-----------------------------------------------------------------CENTRAL-------------------------------------------------------------------------------------*/
+/*clases*/
+.central{
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap:3rem;    
+    padding-left: 2rem;
+   
+}
+
+
+.texto{
+    
+    width: 40rem;
+    height: 20rem;
+    text-align: center;
+    padding-left: 2rem;
+    font-family: "antonio";
+    font-size: 1.3rem;
+    margin-top:3rem;
+    margin-left: 2rem ;
+}
+
+.bso{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-family: "antonio";
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding-top: 7rem;
+ 
+}
+
+/*identificadores*/
+
+#p2{
+
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+#ready{
+     
+   font-family: "anton";
+    font-size: 4rem;
+    color:#599AAD;
+}
+
+
+
+/*-------------------------------------------------- ESTILO MENU DESPLEGABLE LATERAL--------------------------------------------------------------------------*/
+
+/*clases*/
+
+.acordeon{
+
+    list-style: none;
+    background-color:#F31102 ;
+    margin-top: 0.25rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    padding-bottom: 3.5rem;
+    
+}
+
+.menuP a{
+
+    text-align: left;
+    color:#FCF5ED;
+    font-size: 2rem;
+    font-family: "anton";
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+}
+
+.items a{
+
+    font-size: 1.5rem;
+    list-style: none;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+.items li{
+    list-style: none;
+}
+
+.desplegable ul li ul {
+
+    font-size: 1rem;    
+}
+
+/*desplegar*/
+
+.items{
+    height: 0;
+    overflow: hidden;  
+}
+
+.acordeon:hover .menuP:hover .items{
+
+    height: 9.2rem;
+}
+
+/*líneas menú*/
+
+.menuP hr{
+    margin-left: -2.6rem;
+        border:none;
+        height: 0.1rem;
+        background-color:#FCF5ED ;
+    }
+.items hr{
+
+    padding-left: -2.5rem;
+        
+    height: 0.01rem;
+    background-color:#FCF5ED ;
+
+
+}
+/*identificadores*/
+
+#cabMenu{   
+    font-family: "anton";
+    background-color: #599AAD;
+    font-size: 2.5rem;
+    color:#FCF5ED;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.5rem; 
+    padding-bottom: 0.5rem;
+    width: 18rem; 
+    height: 4.5rem;  
+    border-top-left-radius: 3.5rem;
+    border-top-right-radius: 3.5rem;
+    list-style: none;    
+    letter-spacing: 0.1rem;
+}
+ /*-------------------------------------------------------PIE DE PÁGINA------------------------------------------------------------------*/
+ 
+ 
+ /*etiquetas*/
+ 
+ footer h1{
+
+    font-family: "anton";
+    letter-spacing: 0.1rem;
+    font-weight: 400;    
+    font-size: 1rem;
+    color:#FCF5ED;
+ 
+}
+ 
+/*clases*/
+
+ .piePagina{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #599AAD;    
+    padding-left: 3rem;
+    gap:8rem;
+   
+}
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logicon{
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+}
+
+.iconosSocial{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:3rem;
+    padding-left: 10rem;
+    
+}
+
+/*identificadores*/
+
+#logoV{
+
+    width: 5rem;
+    
+    opacity:60%;
+  
+}
+
+#escribe{
+   
+    width: 7rem;
+    color:#599AAD;
+    border:none;
+    margin-left: 1rem;
+    
+}
+
+#escribe:hover{
+
+    background-color: #F31102;
+    color:#FCF5ED;
+}
